@@ -1,11 +1,5 @@
 
-
-## Install instructions
-
-To install this package:
-
-Extract this package in the root of your web site. If your site is <code>http://www.example.com</code>, you should be able to access a file named <code>http://www.example.com/favicon.ico</code>.
-
+### Example code 
 Insert the following code in the `head` section of your pages:
 
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
