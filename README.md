@@ -1,12 +1,18 @@
+# Länsförsäkringar Favicon
+Updated 2022, based on [research by Evil Martians](source).
 
-### Example code 
-Insert the following code in the `head` section of your pages:
+## Implementation
+Copy the assets to a public directory (preferably the root) and link them in as
+done below.
 
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
-    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#005aa0">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="theme-color" content="#ffffff">
+```html
+<head>
+  <!-- ... -->
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="manifest" href="/manifest.webmanifest">
+<head>
+```
 
+[source]: https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs
