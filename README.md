@@ -1,9 +1,12 @@
-# Länsförsäkringar Favicon
-Updated 2022, based on [research by Evil Martians](source).
+# <img src="https://github.com/LF-digitala-kanaler/favicon/blob/master/icon.svg" width="24"> Länsförsäkringar Favicon
+
+Updated 2022 based on [research by Evil Martians](https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs).
 
 ## Implementation
-Copy the assets to a public directory (preferably the root) and link them in as
-done below.
+
+1. Copy the assets to a public directory (preferably the root).
+2. Add the below links to your document.
+3. Optinally, define a [name and short name](https://developer.chrome.com/docs/extensions/mv2/manifest/name/) in the webmanifest file.
 
 ```html
 <head>
@@ -14,5 +17,3 @@ done below.
   <link rel="manifest" href="/manifest.webmanifest">
 <head>
 ```
-
-[source]: https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs
